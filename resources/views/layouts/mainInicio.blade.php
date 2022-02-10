@@ -40,7 +40,7 @@
 							<h2>Menu</h2>
 						</header>
 						<ul>
-							<li><a href="/prestamo">Prestamo</a></li>
+							<li><a href="/prestamos">Prestamo</a></li>
 							<li><a href="/usuarios">Usuarios</a></li>
 							<li><a href="/libros">Libros</a></li>
 						</ul>

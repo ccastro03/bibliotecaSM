@@ -286,10 +286,15 @@
                             alertasCustom(4,'¡Error!',err.statusText+" : "+err.responseJSON['message']); // 1: success, 2:info, 3:warning, 4:error
                         },
                         success: function(res) {
-                            alertasCustom(1,'¡Exito!',res); // 1: success, 2:info, 3:warning, 4:error
-                            $("#pnlProd").fadeOut(300);
-                            $('#tablaListado').DataTable().ajax.reload();
-                            limpiarCampos();
+                            if(res[0] == '1'){
+                                alertasCustom(1,'¡Exito!',res[1]); // 1: success, 2:info, 3:warning, 4:error
+                                $("#pnlProd").fadeOut(300);
+                                $('#tablaListado').DataTable().ajax.reload();
+                                limpiarCampos();
+                            }
+                            if(res[0] == '0'){
+                                alertasCustom(3,'¡Advertencia!',res[1]); // 1: success, 2:info, 3:warning, 4:error
+                            }                            
                             return false;
                         }
                     });
