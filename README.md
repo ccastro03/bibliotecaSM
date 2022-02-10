@@ -4,6 +4,6 @@ Una copia de la base de datos de MySql se encuentra en el repositorio de GitHub.
 
 Para el desarrollo local se utilizo apache como server corriendo con XAMPP.
 
-Se hizo el upload del aplicativo a un server y la direccion URL para ver en funcionamiento el mismo es esta http://bibliotecaSM.swcolsoluciones.com/
+Se hizo el upload del aplicativo a un server y la direccion URL para ver en funcionamiento el mismo es esta http://bibliotecasm.swcolsoluciones.com/
 
 El codigo fuente esta en el repositorio en GitHub que se encuentra en esta URL https://github.com/ccastro03/bibliotecaSM
